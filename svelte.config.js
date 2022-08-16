@@ -15,7 +15,10 @@ const config = {
     adapter: vercel({
       // enable edge function for vercel 
       edge: true,
-    })
+    }),
+    serviceWorker: {
+      register: false,
+    },
   }
 };
 
