@@ -108,13 +108,13 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/adapter-vercel@1.0.0-next.78":
-  version "1.0.0-next.78"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.78.tgz#f5e3560e21c497355ab4f743279dc90da1e2687d"
-  integrity sha512-K7zOlVwX/MV/b6iUbrY7QVn+v8ABBSEi6rjIfYiXCZc+j0nS5WNrcH1/Qdk/pzxK+7O5OuaNZAw3QylJDV5CZw==
+"@sveltejs/adapter-vercel@1.0.0-next.81":
+  version "1.0.0-next.81"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.81.tgz#99ecb17e389ef9724c0544cc8a7ab49165e0ca07"
+  integrity sha512-cuNolQSqabSs97J2hn9bnRDOscihIO+VEYltsc+POLU/ecv7pbUm1qdRakeG3+ehK1mfZ9dub6vEVuLKhm+Qng==
   dependencies:
-    "@vercel/nft" "^0.22.0"
-    esbuild "^0.15.7"
+    "@vercel/nft" "^0.22.1"
+    esbuild "^0.15.12"
 
 "@sveltejs/kit@next":
   version "1.0.0-next.402"
@@ -266,7 +266,7 @@
     "@typescript-eslint/types" "5.32.0"
     eslint-visitor-keys "^3.3.0"
 
-"@vercel/nft@^0.22.0":
+"@vercel/nft@^0.22.1":
   version "0.22.1"
   resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.22.1.tgz#0d91d2a21e3a7f0b23ce1550da9870eac4942828"
   integrity sha512-lYYZIoxRurqDOSoVIdBicGnpUIpfyaS5qVjdPq+EfI285WqtZK3NK/dyCkiyBul+X2U2OEhRyeMdXPCHGJbohw==
@@ -756,7 +756,7 @@ esbuild-windows-arm64@0.15.12:
   resolved "https://registry.yarnpkg.com/esbuild-windows-arm64/-/esbuild-windows-arm64-0.15.12.tgz#9a7266404334a86be800957eaee9aef94c3df328"
   integrity sha512-Of3MIacva1OK/m4zCNIvBfz8VVROBmQT+gRX6pFTLPngFYcj6TFH/12VveAqq1k9VB2l28EoVMNMUCcmsfwyuA==
 
-esbuild@^0.15.7, esbuild@^0.15.9:
+esbuild@^0.15.12, esbuild@^0.15.9:
   version "0.15.12"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.15.12.tgz#6c8e22d6d3b7430d165c33848298d3fc9a1f251c"
   integrity sha512-PcT+/wyDqJQsRVhaE9uX/Oq4XLrFh0ce/bs2TJh4CSaw9xuvI+xFrH2nAYOADbhQjUgAhNWC5LKoUsakm4dxng==
