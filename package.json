@@ -2,10 +2,10 @@
   "name": "binder",
   "version": "1.2.0",
   "scripts": {
-    "dev": "vite dev --port 3030",
+    "dev": "vite dev",
     "build": "yarn run check && vite build",
     "package": "svelte-kit package",
-    "preview": "vite preview --port 3030",
+    "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --check --plugin-search-dir=. . && eslint .",
